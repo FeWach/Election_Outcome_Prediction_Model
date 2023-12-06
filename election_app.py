@@ -77,7 +77,7 @@ def main():
  
     # Getting input data from the user
     outgoing = st.number_input('If the sitting president is in his or her final term choose 1, if not choose 0', 0, 1)
-    majority_change = st.number_input('If the most recent midterm elections led to a majority change in the U.S. Congress choose 1, if not choose 0', 0, 1)
+    majority_change = st.number_input('If the most recent midterm elections led to a majority change in the House of Representatives choose 1, if not choose 0', 0, 1)
     GDP_growth = st.number_input('Enter the most recent annual GDP growth rate, i.e. 4.50')
     unemployment_rate = st.number_input('Enter the most recent annual unemployment rate, i.e. 5.95')
     inflation_rate = st.number_input('Enter the most recent annual inflation rate, i.e. 3.25')
