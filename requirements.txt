@@ -3,4 +3,5 @@ numpy
 scikit-learn==1.3.2
 pickleshare==0.7.5
 streamlit
+streamlit_lottie
 requests==2.31.0
