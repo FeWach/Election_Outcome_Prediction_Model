@@ -24,11 +24,11 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
         
-local_css('StreamlitApp\style\style.css.txt')        
+local_css('style.css.txt')        
 
 # --- Loading the model and assets ---#
 
-with open(r"C:\Users\felix\StreamlitApp\calib_election_model.pckl", "rb") as p:
+with open(r'calib_election_model.pckl', 'rb') as p:
     model = pickle.load(p)
 
 animation_header = load_animation_header('https://lottie.host/2cbc25f7-cdf5-4435-a84d-45f4d1a34f39/xVF80LC0b8.json')
